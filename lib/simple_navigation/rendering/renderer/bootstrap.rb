@@ -62,7 +62,7 @@ module SimpleNavigation
           end
           item.html_options = item_options
         end
-        link_to(link.join(" ").html_safe, url, options_for(item))
+        link_to(link.join.html_safe, url, options_for(item))
       end
 
     end
